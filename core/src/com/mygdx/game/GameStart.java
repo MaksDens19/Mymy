@@ -9,6 +9,11 @@ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 public class GameStart extends ApplicationAdapter {
 	SpriteBatch batch;
 	Texture img;
+
+	public static final int WIDTH = 800;
+	public static final int HEIGHT = 480;
+
+
 	
 	@Override
 	public void create () {
